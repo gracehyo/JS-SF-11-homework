@@ -4,10 +4,9 @@
 //    Test your function.
 
 function convertCel (fahrenheight) {
-    var celcius = fahrenheight - 32 % (9/5);
+    return (fahrenheight - 32) / (9/5);
 }
 
-convertCel(30);
 
 
 // 2. Create a second function that accepts a temperature value in Celsius and converts it to Fahrenheit.
@@ -16,8 +15,7 @@ convertCel(30);
 //    Test your function.
 
 function convertFahren (celcius) {
-    var fahrenheit; 
-    fahrenheit = celcius * (9/5) + 32;
+    return celcius * (9/5) + 32;
 }
 
 convertFahren(30);
